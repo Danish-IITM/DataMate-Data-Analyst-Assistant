@@ -1,5 +1,3 @@
-# app.py (No changes needed)
-
 import os
 import uuid
 import shutil
@@ -13,7 +11,7 @@ from google.api_core import exceptions as google_exceptions
 load_dotenv()
 app = Flask(__name__)
 
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+GOOGLE_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 if not os.path.exists("temp"):
     os.makedirs("temp")
@@ -74,4 +72,4 @@ def handle_analysis_request():
             print(f"Cleaned up temporary directory: {temp_dir}")
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=5000)

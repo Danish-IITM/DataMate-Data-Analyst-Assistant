@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Uploads/temp
+temp/
+
+# Environment variables
+.env
+
+# Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# VSCode / PyCharm / IDE configs
+.vscode/
+.idea/
+
+# Compiled files
+*.so
+*.dll
+*.dylib
+
+# Node stuff (if frontend later)
+node_modules/
