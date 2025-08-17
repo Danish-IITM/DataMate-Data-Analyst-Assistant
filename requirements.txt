@@ -1,0 +1,12 @@
+flask
+python-dotenv
+google-generativeai
+pydantic
+pandas
+matplotlib
+seaborn
+scikit-learn
+beautifulsoup4
+lxml
+requests
+duckdb
