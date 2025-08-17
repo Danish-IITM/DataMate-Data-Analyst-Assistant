@@ -1,0 +1,10 @@
+Use the provided `data.csv` file to answer the following questions.
+
+The dataset contains sales records with the following columns: `OrderID`, `OrderDate`, `Region`, `Product`, `UnitsSold`, `PricePerUnit`.
+
+Answer the following questions and respond with a single JSON array containing the answers in the order they were asked.
+
+1.  What is the total revenue for the 'North' region? (Revenue is `UnitsSold` * `PricePerUnit`).
+2.  Which product generated the most total revenue across all regions? Return the product name as a string.
+3.  What is the average number of units sold per order in March 2023?
+4.  Create a bar chart showing the total revenue per region. The regions should be on the x-axis and total revenue on the y-axis. Return the plot as a base-64 encoded data URI, `"data:image/png;base64,iVBORw0KG..."`, ensuring the file size is under 100,000 bytes.
